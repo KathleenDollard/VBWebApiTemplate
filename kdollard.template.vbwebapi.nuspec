@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>kdollard.template.vbwebapi</id>
+    <version>0.0.1</version>
+    <description>
+      ASP.NET Core Web API VB template
+    </description>
+    <authors>Kathleen Dollard</authors>
+    <license type="expression">MIT</license>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="Content\**\*.*" exclude="Content\**\bin\**\*.*;Content\**\obj\**\*.*;Content\**\.vs\**\*.*" target="Content" />
+  </files>  
+</package>
