@@ -24,7 +24,7 @@ Public Class Startup
         app.UseRouting()
         app.UseAuthorization()
         app.UseEndpoints(Function(endpoints)
-                             endpoints.MapControllers()
+                             Return endpoints.MapControllers()
                          End Function)
     End Sub
 End Class

@@ -8,7 +8,7 @@ Public Class Program
 
     Public Shared Function CreateHostBuilder(args As String()) As IHostBuilder
         Return Host.CreateDefaultBuilder(args).ConfigureWebHostDefaults(Function(webBuilder)
-                                                                            webBuilder.UseStartup(Of Startup)()
+                                                                            Return webBuilder.UseStartup(Of Startup)()
                                                                         End Function)
     End Function
 End Class
